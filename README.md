@@ -4,7 +4,7 @@
 
 Simple CRUD application that allows you to view add edit and delete entries in a phone book.
 
-Backend is build using EFCore and Web API as a single service.
+Backend is built using EFCore and Web API as a single service.\
 Web front end is a simple React app.
 
 ### Prerequisites
@@ -15,16 +15,16 @@ Web front end is a simple React app.
 
 ### Running in Visual Studio
 
-Open the PhoneBookApp.sln in Visual Studio
+Open the PhoneBookApp.sln in Visual Studio\
 Start Debugging
 
 ### Running via command line
 
-Build and run the backend api in PhoneBookApp.Services.Contacts 
+Build and run the backend api in PhoneBookApp.Services.Contacts\ 
 **dotnet run PhoneBookApp.Services.Contacts.csproj**
 
-Build and run the React app in PhoneBookApp.Web
-**npm run build**
+Build and run the React app in PhoneBookApp.Web\
+**npm run build**\
 **npm start**
 
 Regardless of the startup method the app should run on 
@@ -32,4 +32,4 @@ Regardless of the startup method the app should run on
 And the backend should be running on 
 [http://localhost:](http://localhost:5270)
 
-Database migrations on each app start for convenience.
+Database migrations run on each app start for convenience.
