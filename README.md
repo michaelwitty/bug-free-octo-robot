@@ -20,7 +20,7 @@ Start Debugging
 
 ### Running via command line
 
-Build and run the backend api in PhoneBookApp.Services.Contacts\ 
+Build and run the backend api in PhoneBookApp.Services.Contacts\
 **dotnet run PhoneBookApp.Services.Contacts.csproj**
 
 Build and run the React app in PhoneBookApp.Web\
@@ -29,7 +29,7 @@ Build and run the React app in PhoneBookApp.Web\
 
 Regardless of the startup method the app should run on 
 [http://localhost:3000](http://localhost:3000)
-And the backend should be running on 
-[http://localhost:](http://localhost:5270)
+and the backend should be running on 
+[http://localhost:5270](http://localhost:5270)
 
 Database migrations run on each app start for convenience.
