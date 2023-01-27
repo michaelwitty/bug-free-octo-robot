@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+
+$font-family-sans-serif: "poppinssemibold", Arial, sans-serif;
+$body-bg: $gray-100;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "fonts.scss";
+
+.App {
+  text-align: center;
+}
+
+.modal-backdrop {
+    background-color: rgba(0,0,0,0.25);
+}
+
+.list-group {
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
